@@ -25,15 +25,14 @@
     - Saída: 50
     */
     
-
     function calculateAverage(...numbers) {
-        const sum = numbers.reduce(function(accumulate, valorAtual) {
-            return accumulate + valorAtual;
-        })
-        
-        const media = sum / numbers.length
-        return `A média foi: ${media}`;
+        return  `A média é: ${numbers.reduce((accumulate, valorAtual) => accumulate + valorAtual, 0) 
+            / numbers.length}`;
     }
-   
+
     console.log(calculateAverage( 10, 9, 6, 8, 9, 1, 5, 7 ));
+    console.log(calculateAverage(2, 5, 7, 1, -2));
+    console.log(calculateAverage(10, 10, 10, 10, 9));
+    console.log(calculateAverage(25, 75));
+
 })();
