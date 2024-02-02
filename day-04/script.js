@@ -17,13 +17,10 @@
      */
 
         function squaredNumber(numbers) {
-            let newValue = [];
-            let value = '';
-            newValue = numbers.toString().split('');
-            newValue.forEach(function(item, index) {
-                value += item * item;
-            })
-            return value;
+            let value = numbers.toString().split('');
+            let newValue = '';
+            value.forEach(item => newValue += item ** 2);
+            return Number(newValue);
         }
         console.log(squaredNumber(745821698));
         console.log(squaredNumber(3514));
