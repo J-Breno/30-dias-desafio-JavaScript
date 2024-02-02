@@ -21,11 +21,11 @@
    */
 
   function reverseList(...arrayValues) {
-  let arrayReverse = [];
+  let reversedArray = [];
     for(let i = 1; i <= arrayValues.length; i++) {
-         arrayReverse.push(arrayValues[arrayValues.length - i]);
+         reversedArray[i - 1] = arrayValues[arrayValues.length - i];
     }
-    return arrayReverse;
+    return reversedArray;
   }
 
   console.log(reverseList(0, 9, 6, 8, 9,1, 5, 7));
