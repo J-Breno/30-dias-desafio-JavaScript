@@ -16,13 +16,10 @@
      * 
      */
 
-        function squaredNumber(...numbers) {
-            let valueSqaured = 0;
+        function squaredNumber(numbers) {
             let newValue = [];
             let value = '';
-            numbers.forEach(function(item, index) {
-                newValue = item.toString().split('');
-            })
+            newValue = numbers.toString().split('');
             newValue.forEach(function(item, index) {
                 value += item * item;
             })
