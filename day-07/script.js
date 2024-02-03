@@ -20,7 +20,7 @@
   function flatAndSort(arr) {
     const numbers = [];
     arr.forEach(list => numbers.push(...list)) // o foreach vai separar os pequenos array, e depois quando faz a destruturação ele faz com que ele saia daqueles arrays
-    return numbers.sort((a, b) => a - b)
+    return numbers.sort((a, b) => a - b) // a - b = 0? iguais; a - b === positivo? a > b; a - b === negativo? b > a;
   }
   console.log(flatAndSort([[1, 3],[4, 8],[7, 5],[2, 6],]));
   console.log(flatAndSort([[100, 50], [60, 100], [20, 100, 70], [10, 40, 80, 90]]))
