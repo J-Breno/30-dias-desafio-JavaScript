@@ -1,6 +1,7 @@
 (function(win, doc) {
     
     'use strict';
+    // nivel veryEasy
     
     /*
     Desafio: Ajudando a academia

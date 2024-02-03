@@ -1,5 +1,6 @@
 (function () {
   "use strict";
+    // nivel veryEasy
 
   /**
    * 5. História Escondida I

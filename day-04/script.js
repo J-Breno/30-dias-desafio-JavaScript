@@ -1,6 +1,7 @@
 (function() {
 
     'use strict';
+    // nivel veryEasy
 
     /**
      * 4. A quipe encarregada de aperfeiçoar o sistema de navegação das naves da Federeção precisa que você os ajude criando uma nova funcionalidade. Essa funcionalidade consiste em calcular a elevação quadrática individual de um determinado número. Para realizar esse cálculo você deve elevar ao quadrado cada algoritmo do número em questão e concatenar os resultdados em um único número;

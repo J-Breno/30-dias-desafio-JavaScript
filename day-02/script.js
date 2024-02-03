@@ -1,6 +1,7 @@
 (function() {
 
     'use strict';
+    // nivel veryEasy
 
     /**
      * 2. Procedimento Recursivo I

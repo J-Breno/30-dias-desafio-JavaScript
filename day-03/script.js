@@ -1,5 +1,6 @@
 (function () {
   "use strict";
+    // nivel veryEasy
 
   /**
    * 3. Linguagem Limitada
